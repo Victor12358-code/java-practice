@@ -20,6 +20,7 @@ public class Main {
             } else {           
                 condition = true;
             }
+        }
         if (condition == true) {
             int M = Integer.parseInt(scan.nextLine());
             if (M > totalM) {
@@ -32,7 +33,6 @@ public class Main {
                 System.out.println(String.format("Balance: $%s", totalM));
             }
         }
-        }
-    scan.close();
+        scan.close();
     }
 }
