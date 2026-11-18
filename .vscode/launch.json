@@ -4,6 +4,13 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "Unit_02.Chapter_03.Q_02_03_06.Main",
+      "projectName": "java-practice_3a195432"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "Unit_02.Chapter_03.Q_02_03_05.Main",
       "projectName": "java-practice_3a195432"
     },
