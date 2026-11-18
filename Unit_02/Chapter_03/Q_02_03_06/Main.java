@@ -9,21 +9,22 @@ public class Main {
         int count = 0;
         int index1 = 0;
         int index2 = 0;
-
         for (int i = 0; i < a.length() && count < 1; i += 1) {
              if (a.charAt(i) == b) {
                 count++;
+                index1 = i;
             }
-            index1++;
             index2++;
         }
-
-        for (int u = index1; u < a.length() && count < 3; u += 1) {
+        
+        count = 0;
+        for (int u = 0; u < a.length() && count < 3; u += 1) {
              if (a.charAt(u) == b) {
                 count++;
-            }
-            index2++;    
+                index2 = u;
+            }    
         }    
         System.out.printf("First occurrence: %d\nThird occurrence: %d", index1, index2);
     }
 }
+
