@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main1",
+      "request": "launch",
+      "mainClass": "Unit_02.Chapter_03.Q_02_03_06.Main1",
+      "projectName": "java-practice_3a195432"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Unit_02.Chapter_03.Q_02_03_06.Main",
