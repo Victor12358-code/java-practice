@@ -12,9 +12,8 @@ public class Main {
             x += a.charAt(i);
             i++;
         }
-        String y = a.substring(i + 1, a.length());
         int k = Math.abs(Integer.parseInt(x));
-        int l = Math.abs(Integer.parseInt(y));
+        int l = Math.abs(Integer.parseInt(a.substring(i + 1, a.length())));
 
         int N = 1;
         
@@ -27,9 +26,8 @@ public class Main {
                 x += a.charAt(i);
                 i++;
             }
-            y = a.substring(i + 1, a.length());
             k = Math.abs(Integer.parseInt(x));
-            l = Math.abs(Integer.parseInt(y));
+            l = Math.abs(Integer.parseInt(a.substring(i + 1, a.length())));
         }
         System.out.printf("Darts thrown: %s\nBullseye distance: %s", N, k + l);
         scan.close();
