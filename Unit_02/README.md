@@ -36,3 +36,11 @@ Each row links to the problem statement. IDs follow `Unit-Chapter-Question`.
 | [02-04-02](Chapter_04/Q_02_04_02/02-04-02.md) | One Hundred and Eighty!            |
 | [02-04-03](Chapter_04/Q_02_04_03/02-04-03.md) | Hit the Bullseye                   |
 
+
+## Chapter 5 - Nested loops
+
+| Problem                            | Title                     |
+| ---------------------------------- | ------------------------- |
+| [02-05-01](Chapter-05/02-05-01.md) | Asterisk Rectangle (easy) |
+| [02-05-02](Chapter-05/02-05-02.md) | Multiplication Table      |
+| [02-05-03](Chapter-05/02-05-03.md) | Number Triangle (easy)    |
