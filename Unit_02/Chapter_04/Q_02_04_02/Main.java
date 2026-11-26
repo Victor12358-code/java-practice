@@ -21,5 +21,6 @@ public class Main {
         } else {
             System.out.printf("It took %s turns to hit 180.\nTotal points thrown: %s", N, total);
         }
+        scan.close();
     }
 }
